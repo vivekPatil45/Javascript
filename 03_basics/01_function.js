@@ -1,4 +1,4 @@
-
+//setinteval function imp
 function sayMyName(){
     console.log("H");
     console.log("I");
