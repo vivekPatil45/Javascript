@@ -42,6 +42,10 @@ const promiseFour = new Promise(function(resolve, reject){
     }, 1000)
 })
 
+
+
+// it solve the problem of callback
+
  promiseFour
  .then((user) => {
     console.log(user);
@@ -75,6 +79,13 @@ async function consumePromiseFive(){
 }
 
 consumePromiseFive()
+
+
+// Async simply allows us to write promises-based code as if it was synchronous and it checks that we are not breaking the execution thread.
+
+// Async functions will always return a value. It makes sure that a promise is returned and if it is not returned then JavaScript automatically wraps it in a promise which is resolved with its value.
+
+
 
 // async function getAllUsers(){
 //     try {
