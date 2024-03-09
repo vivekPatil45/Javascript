@@ -1,5 +1,7 @@
 //  Primitive
 
+
+
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -54,4 +56,14 @@ let user1 = user
 
 user1.email="2111234"
 console.log(user.email)
-console.log(user1.email)
+console.log(user1.email)  ///here we understand that the nonprimitve dattype address are passed
+//  here  user and user1 point the smae object with addres any change in user or user1 that visible in both object change
+
+let a=5;
+let b=a;
+console.log("a",a)
+console.log("b",b)
+b=6
+console.log("a",a)   //only copy pass i.e refrence pass 
+console.log("b",b)
+
